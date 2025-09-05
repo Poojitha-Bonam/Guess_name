@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the Name</title>
+</head>
+<body>
+    <div class="container">
+        <h2>🎯 Guess the Name 🎯</h2>
+        <p class="names-list">
+            Sam, Kajal, Soundarya, Mahesh, Keerthi, Nithya Menon, NTR, Prabhas
+        </p>
+        <img id="img" 
+             src="https://t4.ftcdn.net/jpg/01/66/36/93/360_F_166369338_boS5AZ1tPdkCkK3WyttQcrSbJPWHdC15.jpg" 
+             alt="Guessing Game" />
+        <br />
+
+        <input type="text" id="user_input" placeholder="Enter a name..." />
+        <button id="guess_btn" onclick="guessName()">Guess</button>
+        <button id="reset_btn" onclick="resetGame()">Reset</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
